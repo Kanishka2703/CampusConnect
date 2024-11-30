@@ -1,0 +1,29 @@
+.postRow_UserProfile{
+    /* border: 2px solid red ; */
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.setting_row{
+    border-bottom:  1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 14.28%;
+    background-color: white;
+
+}
+.setting_row:hover{
+    background-color: lightgray;
+}
+.Navbar_Container{
+ 
+   
+   display: flex;
+}
+.Navbar_Container:hover{
+    background-color: white;
+    border-radius:4px ;
+}
