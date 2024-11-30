@@ -57,37 +57,22 @@ const drawerStyle = {
         </Link>
         
         </Container>       
-        <br></br>
+      
 {/* Search icon */}
-        <Container className={Styles.Navbar_Container}>
-        <SearchIcon fontSize="large"/>
-        <Link onClick={toggleDrawer}  className="link" >Search
-          <div style={drawerStyle}>
-            <SearchPage/>
-          </div>
-        </Link>
-        </Container>
-
+ 
         {/* Message */}
         <br></br>
         <Container className={Styles.Navbar_Container}>
         <LocalPostOfficeOutlinedIcon fontSize="large"/>
-        <Link  className="link" >Message
+        <Link to="/chats" className="link" >Message
         </Link>
         </Container>
         
         <br></br>
-        {/* Notification */}
-        <Container className={Styles.Navbar_Container}>
-        <FavoriteBorderOutlinedIcon fontSize="large"/>
-        <Link  className="link" >Notification
-        </Link>
-        </Container>
-        
-        <br></br>
+       
         <Container className={Styles.Navbar_Container}>
         <LocalPostOfficeOutlinedIcon fontSize="large"/>
-        <Link  className="link" >Imp contacts
+        <Link to="/impContacts" className="link" >Imp contacts
         </Link>
         </Container>
         <br></br>
@@ -101,7 +86,7 @@ const drawerStyle = {
         <br></br>
         <Container className={Styles.Navbar_Container}>
         <LocalPostOfficeOutlinedIcon fontSize="large"/>
-        <Link  className="link" >Notices
+        <Link to="/Notices" className="link" >Notices
         </Link>
         </Container>
          {isModalOpen && <CreatePost handleClose={handleModalClose} />}

@@ -22,7 +22,7 @@ const MainScreen=()=>{
           
         </Col>
         <Col md={6} >
-          <Stories/>
+          {/* <Stories/> */}
           <AllPost/>
         </Col>
         <Col md={4} className="d-none d-md-block ">

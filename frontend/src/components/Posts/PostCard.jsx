@@ -130,7 +130,7 @@ const likeStyle={
 }
 
  
-  return <Container style={{height:'30rem',width:'30rem', marginTop:'50px' }}>
+  return <Container style={{height:'35rem',width:'40rem', marginTop:'100px' }}>
        
  
   <Card 

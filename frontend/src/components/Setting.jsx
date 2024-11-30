@@ -30,7 +30,7 @@ const style = {
         left: '50%',
         transform: 'translate(-50%, -50%)',
         width:480,
-        height:400,
+        height:100,
         borderRadius:5,
         bgcolor: 'background.paper',
          boxShadow: 24,
@@ -48,11 +48,7 @@ const style = {
         <Box sx={style}>
   
        
-      <div className={Styles.setting_row}>Apps and Websites</div>
-      <div className={Styles.setting_row}>QR Code</div>
-      <div className={Styles.setting_row}>Notifications</div>
-      <div className={Styles.setting_row}>Settings and privacy</div>
-      <div className={Styles.setting_row}>Supervision</div>
+   
       <div className={Styles.setting_row} onClick={LogoutUser}>Logout</div>
      
       <div className={Styles.setting_row} onClick={handleClose}>Cancel</div>
